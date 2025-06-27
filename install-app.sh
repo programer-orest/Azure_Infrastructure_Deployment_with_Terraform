@@ -5,9 +5,9 @@
 # runs scripts under root user.
 git clone https://github.com/programer-orest/devops_todolist_terraform_task.git
 
-# install system updates and isntall python3-pip package using apt. '-yq' flags are
+# install system updates and isntall python3-pip package using apt. '-yq' flags are 
 # used to suppress any interactive prompts - we won't be able to confirm operation 
-# when running the script as VM extention.
+# when running the script as VM extention.  
 apt-get update -yq
 apt-get install python3-pip -yq
 
