@@ -49,7 +49,7 @@ resource "azurerm_virtual_machine_extension" "example" {
 
   settings = <<SETTINGS
  {
-  "fileUris": ["https://raw.githubusercontent.com/programer-orest/devops_todolist_terraform_task/refs/heads/main/install-app.sh"],
+  "fileUris": ["https://raw.githubusercontent.com/programer-orest/devops_todolist_terraform_task/main/install-app.sh"],
   "commandToExecute": "bash ./install-app.sh"
  }
 SETTINGS
