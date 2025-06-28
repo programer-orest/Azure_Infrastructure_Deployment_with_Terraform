@@ -36,12 +36,12 @@ module "network" {
 }
 
 module "compute" {
-  source              = "./modules/compute"
-  resource_group_name = var.resource_group_name
-  location            = var.location
-  vm_name             = var.vm_name
-  vm_size             = var.vm_size
-  ssh_key_public      = file("~/.ssh/id_rsa.pub")
-  subnet_id           = module.network.subnet_id
+  source               = "./modules/compute"
+  resource_group_name  = var.resource_group_name
+  location             = var.location
+  vm_name              = var.vm_name
+  vm_size              = var.vm_size
+  ssh_key_public       = file("~/.ssh/id_rsa.pub")
+  subnet_id            = module.network.subnet_id
   public_ip_address_id = module.network.public_ip_address_id
 }

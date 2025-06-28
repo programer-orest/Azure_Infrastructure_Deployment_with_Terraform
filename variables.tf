@@ -1,41 +1,41 @@
 variable "location" {
-  type    = string
+  type = string
 }
 
 variable "resource_group_name" {
-  type    = string
+  type = string
 }
 
 variable "virtual_network_name" {
-  type    = string
+  type = string
 }
 
 variable "vnet_address_prefix" {
-  type    = string
+  type = string
 }
 
 variable "subnet_name" {
-  type    = string
+  type = string
 }
 
 variable "subnet_address_prefix" {
-  type    = string
+  type = string
 }
 
 variable "network_security_group_name" {
-  type    = string
+  type = string
 }
 
 variable "public_ip_address_name" {
-  type    = string
+  type = string
 }
 
 variable "vm_name" {
-  type    = string
+  type = string
 }
 
 variable "vm_size" {
-  type    = string
+  type = string
 }
 
 variable "ssh_key_public" {
@@ -43,5 +43,5 @@ variable "ssh_key_public" {
 }
 
 variable "dns_label" {
-  type    = string
+  type = string
 }
