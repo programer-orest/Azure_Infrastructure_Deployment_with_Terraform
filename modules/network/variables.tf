@@ -7,7 +7,7 @@ variable "resource_group_name" {
 }
 
 variable "virtual_network_name" {
-  type    = string
+  type = string
 }
 
 variable "vnet_address_prefix" {
