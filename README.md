@@ -18,15 +18,24 @@ The solution uses Azure Virtual Machines, Network Security, Storage Accounts, an
 
 ## Project Structure
 /
+
 ├─ modules/
-│ ├─ network/ # Manages VNet, subnet, NSG, and public IP
-│ ├─ compute/ # Manages the VM, NIC, and app deployment
-│ └─ storage/ # Manages storage account and container
+
+│    ├─ network/     # Manages VNet, subnet, NSG, and public IP
+
+│    ├─ compute/     # Manages the VM, NIC, and app deployment
+
+│    └─ storage/     # Manages storage account and container
+
 ├─ main.tf
+
 ├─ variables.tf
+
 ├─ outputs.tf
+
 ├─ terraform.tfvars
-└─ backend.tf # Remote state backend configuration
+
+└─ backend.tf      # Remote state backend configuration
 
 
 ## What Was Done
@@ -78,3 +87,5 @@ Retrieved public IP / DNS and verified VM accessibility
 Confirmed the ToDo app is running via a web browser
 
 Wrote INSTRUCTION.md with detailed steps to deploy and validate the solution
+
+
